@@ -1,5 +1,6 @@
 import Joi from "joi";
 
+// product validation schema
 export const productValidateSchema = Joi.object({
   prdId: Joi.string().max(255).optional(),
   title: Joi.string().min(6).max(255).required(),

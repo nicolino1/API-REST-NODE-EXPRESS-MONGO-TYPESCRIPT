@@ -8,9 +8,9 @@ export interface IMessageInfo {
     message: string,
     data?: Data,
 }
-  
-  export interface IResponse {
-      status?: number,
-      message?: string,
-      data?: Data,
-  }
+
+export interface IResponse {
+    status?: number,
+    message?: string,
+    data?: Data,
+}
